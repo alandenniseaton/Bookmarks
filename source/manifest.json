@@ -1,0 +1,34 @@
+{
+    "manifest_version" :2,
+    
+	"name": "Bookmarks",
+	
+	"description": "Bookmarks Manager",
+	
+	"version": "0.1",
+
+	"icons": {
+		"16": "images/vm16.png",
+		"48": "images/vm48.png",
+		"128": "images/vm128.png"
+	},
+	
+	"app": {
+		"launch": {
+			"local_path":"Bookmarks.html"
+		}
+	},
+/*
+	"browser_action": {
+		"default_icon": "images/vm16.png",
+		"default_title": "Bookmarks"
+	},
+*/	
+	"minimum_chrome_version": "12.0.706.0",
+	
+	"permissions":[
+		"unlimitedStorage",
+		"tabs",
+		"notifications"
+	]
+}

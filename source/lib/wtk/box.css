@@ -1,0 +1,94 @@
+.box {
+	display: box;
+	display: -webkit-box;
+	display: -moz-box;
+}
+
+.horizontal {
+	box-orient: horizontal;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+}
+.vertical {
+	box-orient: vertical;
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+}
+
+.align-stretch, .stretch {
+	box-align: stretch;
+	-webkit-box-align: stretch;
+	-moz-box-align: stretch;
+}
+.align-start {
+	box-align: start;
+	-webkit-box-align: start;
+	-moz-box-align: start;
+}
+.align-center, .align-centre {
+	box-align: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+}
+.align-end {
+	box-align: end;
+	-webkit-box-align: end;
+	-moz-box-align: end;
+}
+.align-baseline {
+	box-align: baseline;
+	-webkit-box-align: baseline;
+	-moz-box-align: baseline;
+}
+
+.pack-start {
+	box-pack: start;
+	-webkit-box-pack: start;
+	-moz-box-pack: start;
+}
+.pack-center, .pack-centre {
+	box-pack: center;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+}
+.pack-end {
+	box-pack: end;
+	-webkit-box-pack: end;
+	-moz-box-pack: end;
+}
+.pack-justify {
+	box-pack: justify;
+	-webkit-box-pack: justify;
+	-moz-box-pack: justify;
+}
+
+.flex, .flex1 {
+	box-flex: 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+}
+.flex2 {
+	box-flex: 2;
+	-webkit-box-flex: 2;
+	-moz-box-flex: 2;
+}
+.flex3 {
+	box-flex: 3;
+	-webkit-box-flex: 3;
+	-moz-box-flex: 3;
+}
+.flex4 {
+	box-flex: 4;
+	-webkit-box-flex: 4;
+	-moz-box-flex: 4;
+}
+.flex5 {
+	box-flex: 5;
+	-webkit-box-flex: 5;
+	-moz-box-flex: 5;
+}
+.flex6 {
+	box-flex: 6;
+	-webkit-box-flex: 6;
+	-moz-box-flex: 6;
+}

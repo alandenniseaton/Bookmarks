@@ -1,0 +1,17 @@
+.wpage {
+	position: relative;
+	box-sizing: border-box;
+}
+
+.wpage.horizontal {
+	width: 100%;
+}
+
+.wpage.vertical {
+	height: 100%;
+}
+
+.wpage.root {
+	width: 100%;
+	height: 100%;
+}
